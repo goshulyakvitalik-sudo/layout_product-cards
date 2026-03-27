@@ -1,5 +1,5 @@
 .card {
-  width: 200px;
+  width: 12.5rem;
   box-sizing: border-box;
 
   background-color: $color-white;
@@ -28,7 +28,7 @@
 &__title{
   font-weight: 500;
   font-size: $font-size-sm;
-  line-height: 18px;
+  line-height: 1.125;
   color: $color-black;
   text-align: left;
 }
@@ -44,14 +44,14 @@
 &__price-label {
   font-weight: 400;
   font-size: $font-size-sm;
-  line-height: 18px;
+  line-height: 1.125;
   color: $color-gray;
 }
 
 &__price-value{
 font-weight: 700;
 font-size: $font-size-lg;
-line-height: 18px;
+line-height: 1.125;
 color: $color-black;
 }
 
