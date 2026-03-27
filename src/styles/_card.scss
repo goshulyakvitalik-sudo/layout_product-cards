@@ -36,7 +36,7 @@
 &__code{
   font-weight: 400;
   font-size: $font-size-xs;
-  line-height: $font-size-md;
+  line-height: 1.125;
   color: $color-gray;
   text-align: left;
 }
@@ -69,8 +69,8 @@ background-color: $color-primary;
 color: $color-white;
 font-weight: 700;
 font-size: $font-size-md;
-line-height: $font-size-lg;
-border: $color-primary solid 1px ;
+line-height: 1.125;
+border: $color-primary solid 0.0625rem ;
 border-radius: $radius-sm;
 
 
