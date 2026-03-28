@@ -7,91 +7,86 @@
   border-radius: $radius-sm;
   padding: $spacing-md;
 
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.75rem;
+  }
 
-&__image {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0.75rem;
-}
+  &__rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-&__rating {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-&__price {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  &__title {
+    font-weight: 500;
+    font-size: $font-size-sm;
+    line-height: 1.13;
+    color: $color-black;
+    text-align: left;
+  }
 
-&__title{
-  font-weight: 500;
-  font-size: $font-size-sm;
-  line-height: 1.13;
-  color: $color-black;
-  text-align: left;
-}
+  &__code {
+    font-weight: 400;
+    font-size: $font-size-xs;
+    line-height: 1.13;
+    color: $color-gray;
+    text-align: left;
+  }
 
-&__code{
-  font-weight: 400;
-  font-size: $font-size-xs;
-  line-height: 1.13;
-  color: $color-gray;
-  text-align: left;
-}
+  &__price-label {
+    font-weight: 400;
+    font-size: $font-size-sm;
+    line-height: 1.13;
+    color: $color-gray;
+  }
 
-&__price-label {
-  font-weight: 400;
-  font-size: $font-size-sm;
-  line-height: 1.13;
-  color: $color-gray;
-}
+  &__price-value {
+    font-weight: 700;
+    font-size: $font-size-lg;
+    line-height: 1.13;
+    color: $color-black;
+  }
 
-&__price-value{
-font-weight: 700;
-font-size: $font-size-lg;
-line-height: 1.13;
-color: $color-black;
-}
+  &__buy {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: $button-height;
+    margin-top: $font-size-lg;
 
-&__buy {
-display:flex ;
-text-decoration: none;
-text-align: center;
-align-items: center;
-justify-content: center;
-width: 100%;
-height: $button-height;
-margin-top: $font-size-lg;
+    background-color: $color-primary;
+    color: $color-white;
+    font-weight: 700;
+    font-size: $font-size-md;
+    line-height: 1.13;
+    border: $color-primary solid 0.06rem;
+    border-radius: $radius-sm;
 
-background-color: $color-primary;
-color: $color-white;
-font-weight: 700;
-font-size: $font-size-md;
-line-height: 1.125;
-border: $color-primary solid 0.06rem ;
-border-radius: $radius-sm;
+    &:hover {
+      background-color: $color-white;
+      color: $color-primary;
+      border-color: $color-primary;
+    }
+  }
 
-
-
-&:hover {
-  background-color: $color-white;
-  color: $color-primary;
-  border-color: $color-primary;
-}
-}
-
-&:hover {
-  border-color: transparent;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-  transition: 0.2s ease;
-}
-
-
+  &:hover {
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+  }
 }
